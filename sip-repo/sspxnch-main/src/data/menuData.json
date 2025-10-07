@@ -1,0 +1,58 @@
+{
+  "categories": {
+    "Milk Tea": [
+      { "id": "mt1", "name": "Taro", "category": "Milk Tea", "basePrice": 39, "image": "/images/drink1.jpg", "stock": 100 },
+      { "id": "mt2", "name": "Okinawa", "category": "Milk Tea", "basePrice": 39, "image": "/images/drink1.jpg", "stock": 100 },
+      { "id": "mt3", "name": "Wintermelon", "category": "Milk Tea", "basePrice": 39, "image": "/images/drink1.jpg", "stock": 100 },
+      { "id": "mt4", "name": "Brown Sugar", "category": "Milk Tea", "basePrice": 39, "image": "/images/drink1.jpg", "stock": 100 },
+      { "id": "mt5", "name": "Salted Caramel", "category": "Milk Tea", "basePrice": 39, "image": "/images/drink1.jpg", "stock": 100 },
+      { "id": "mt6", "name": "Moffee", "category": "Milk Tea", "basePrice": 39, "image": "/images/drink1.jpg", "stock": 100 },
+      { "id": "mt7", "name": "Cookies n Cream", "category": "Milk Tea", "basePrice": 39, "image": "/images/drink1.jpg", "stock": 100 }
+    ],
+    "Iced Coffee": [
+      { "id": "ic1", "name": "Spanish Latte", "category": "Iced Coffee", "basePrice": 39, "image": "/images/drink2.jpg", "stock": 100 },
+      { "id": "ic2", "name": "Caramel Macchiato", "category": "Iced Coffee", "basePrice": 39, "image": "/images/drink2.jpg", "stock": 100 },
+      { "id": "ic3", "name": "Dark Mocha", "category": "Iced Coffee", "basePrice": 39, "image": "/images/drink2.jpg", "stock": 100 },
+      { "id": "ic4", "name": "Matcha Espresso", "category": "Iced Coffee", "basePrice": 39, "image": "/images/drink2.jpg", "stock": 100 },
+      { "id": "ic5", "name": "Cafe Latte", "category": "Iced Coffee", "basePrice": 39, "image": "/images/drink2.jpg", "stock": 100 }
+    ],
+    "Espresso (Hot Drinks)": [
+      { "id": "hd1", "name": "Matcha", "category": "Espresso (Hot Drinks)", "basePrice": 49, "image": "/images/drink3.jpg", "stock": 100 },
+      { "id": "hd2", "name": "Chocolate", "category": "Espresso (Hot Drinks)", "basePrice": 49, "image": "/images/drink3.jpg", "stock": 100 },
+      { "id": "hd3", "name": "Red Velvet", "category": "Espresso (Hot Drinks)", "basePrice": 49, "image": "/images/drink3.jpg", "stock": 100 },
+      { "id": "hd4", "name": "Arabica Coffee", "category": "Espresso (Hot Drinks)", "basePrice": 49, "image": "/images/drink3.jpg", "stock": 100 }
+    ],
+    "Non-Coffee": [
+      { "id": "nc1", "name": "Red Velvet", "category": "Non-Coffee", "basePrice": 39, "image": "/images/drink4.jpg", "stock": 100 },
+      { "id": "nc2", "name": "Dark Choco", "category": "Non-Coffee", "basePrice": 39, "image": "/images/drink4.jpg", "stock": 100 },
+      { "id": "nc3", "name": "Iced Matcha", "category": "Non-Coffee", "basePrice": 39, "image": "/images/drink4.jpg", "stock": 100 },
+      { "id": "nc4", "name": "Milk Caramel", "category": "Non-Coffee", "basePrice": 39, "image": "/images/drink4.jpg", "stock": 100 }
+    ],
+    "Fruit Soda": [
+      { "id": "fs1", "name": "Blue Lemonade", "category": "Fruit Soda", "basePrice": 39, "image": "/images/drink5.jpg", "stock": 100 },
+      { "id": "fs2", "name": "Green Apple", "category": "Fruit Soda", "basePrice": 39, "image": "/images/drink5.jpg", "stock": 100 },
+      { "id": "fs3", "name": "Strawberry", "category": "Fruit Soda", "basePrice": 39, "image": "/images/drink5.jpg", "stock": 100 },
+      { "id": "fs4", "name": "Blueberry", "category": "Fruit Soda", "basePrice": 39, "image": "/images/drink5.jpg", "stock": 100 },
+      { "id": "fs5", "name": "Lemon", "category": "Fruit Soda", "basePrice": 39, "image": "/images/drink5.jpg", "stock": 100 },
+      { "id": "fs6", "name": "Lychee", "category": "Fruit Soda", "basePrice": 39, "image": "/images/drink5.jpg", "stock": 100 }
+    ],
+    "Snacks": [
+      { "id": "sn1", "name": "Fish Ball", "category": "Snacks", "basePrice": 20, "image": "/images/snack1.jpg", "stock": 50 },
+      { "id": "sn2", "name": "Mini Hotdogs", "category": "Snacks", "basePrice": 20, "image": "/images/snack1.jpg", "stock": 50 },
+      { "id": "sn3", "name": "Kikiam", "category": "Snacks", "basePrice": 20, "image": "/images/snack1.jpg", "stock": 50 },
+      { "id": "sn4", "name": "Chicken Skin", "category": "Snacks", "basePrice": 20, "image": "/images/snack1.jpg", "stock": 50 },
+      { "id": "sn5", "name": "French Fries", "category": "Snacks", "basePrice": 45, "image": "/images/snack1.jpg", "stock": 50 }
+    ]
+  },
+  "sizes": [
+    { "name": "Small", "price": 39 },
+    { "name": "Medium", "price": 49 },
+    { "name": "Large", "price": 59 }
+  ],
+  "addons": [
+    { "id": "ao1", "name": "Milk", "price": 10, "applicableTo": ["Milk Tea"] },
+    { "id": "ao2", "name": "Pearl", "price": 10, "applicableTo": ["Milk Tea"] },
+    { "id": "ao3", "name": "Fruit Jelly", "price": 10, "applicableTo": ["Fruit Soda"] },
+    { "id": "ao4", "name": "Yakult", "price": 10, "applicableTo": ["Fruit Soda"] }
+  ]
+}

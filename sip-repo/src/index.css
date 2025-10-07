@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;600&family=Raleway:wght@300;400;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-oil: #2D1E17;
+  --color-judge: #523F31;
+  --color-roman: #796254;
+  --color-oyster: #9D8A7C;
+  --color-accent: #d97706;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-oyster);
+  color: #1f1f1f;
+}
+
+.btn-primary {
+  background-color: #d97706;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #b45309;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #523F31;
+  border: 1px solid #523F31;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: #523F31;
+  color: white;
+}
+
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+}
